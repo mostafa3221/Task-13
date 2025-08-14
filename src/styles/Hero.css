@@ -1,0 +1,36 @@
+/* === Hero Section Styles === */
+.main_hader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background: linear-gradient(45deg, #3498db, #8e44ad);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.main_hader h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #c0392b;
+  transform: translateY(-3px);
+}
